@@ -1,13 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-
-import img1 from "../img/img1.png";
-import img2 from "../img/img2.png";
-import img3 from "../img/img3.png";
-
-import thumb1 from "../img/thumb1.png";
-import thumb2 from "../img/thumb2.png";
-import thumb3 from "../img/thumb3.png";
 
 const Contents = styled.div`
   position: relative;
@@ -55,29 +47,8 @@ const ImgBox = styled.div`
 const Starbucks = styled.img`
   max-width: 340px;
 `;
-const Thumbs = styled.ul`
-  position: absolute;
-  letter-spacing: 50%;
-  left: 50%;
-  bottom: 20px;
-  transform: translateX(-50%);
-`;
-const List = styled.li`
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
-  cursor: pointer;
-  transition: 0.3s;
-  &:hover {
-    transform: translateY(-15px);
-  }
-`;
 
-const Img = styled.img`
-  max-width: 60px;
-`;
 function Content(props) {
-  const [img, setImg] = useState(img1);
   return (
     <>
       <Contents>
@@ -96,38 +67,9 @@ function Content(props) {
           <More href="#">Learn More</More>
         </TextBox>
         <ImgBox>
-          <Starbucks src={img} />
+          <Starbucks src={props.img} />
         </ImgBox>
       </Contents>
-      <Thumbs>
-        <List>
-          <Img
-            src={thumb1}
-            onClick={() => {
-              setImg(img1);
-              props.setBg("#017143");
-            }}
-          />
-        </List>
-        <List>
-          <Img
-            src={thumb2}
-            onClick={() => {
-              setImg(img2);
-              props.setBg("#eb7495");
-            }}
-          />
-        </List>
-        <List>
-          <Img
-            src={thumb3}
-            onClick={() => {
-              setImg(img3);
-              props.setBg("#d752b1");
-            }}
-          />
-        </List>
-      </Thumbs>
     </>
   );
 }

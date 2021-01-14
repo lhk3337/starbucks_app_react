@@ -3,8 +3,9 @@ import Header from "./contents/header";
 import styled from "styled-components";
 import Content from "./contents/content";
 import Sci from "./contents/sci";
+import Thumbs from "./contents/thumb";
 import "../src/App.css";
-
+import img1 from "./img/img1.png";
 const Circle = styled.div`
   position: absolute;
   top: 0;
@@ -27,12 +28,13 @@ const Section = styled.section`
 
 function App() {
   const [bg, setBg] = useState("#017143");
+  const [img, setImg] = useState(img1);
   return (
     <Section>
       <Circle colors={bg} />
       <Header />
-      <Content setBg={setBg} />
-
+      <Content img={img} />
+      <Thumbs setImg={setImg} setBg={setBg} />
       <Sci />
     </Section>
   );

@@ -30,17 +30,35 @@ const Img = Styled.img`
   max-width: 60px;
 `;
 
-function thumb() {
+function thumb(props) {
   return (
     <Thumbs>
       <List>
-        <Img src={thumb1} />
+        <Img
+          src={thumb1}
+          onClick={() => {
+            props.setImg(img1);
+            props.setBg("#017143");
+          }}
+        />
       </List>
       <List>
-        <Img src={thumb2} />
+        <Img
+          src={thumb2}
+          onClick={() => {
+            props.setImg(img2);
+            props.setBg("#eb7495");
+          }}
+        />
       </List>
       <List>
-        <Img src={thumb3} />
+        <Img
+          src={thumb3}
+          onClick={() => {
+            props.setImg(img3);
+            props.setBg("#d752b1");
+          }}
+        />
       </List>
     </Thumbs>
   );
