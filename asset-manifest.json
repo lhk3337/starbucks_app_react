@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/starbucks_app_react/static/css/main.a8dd23d5.chunk.css",
+    "main.js": "/starbucks_app_react/static/js/main.c3979e86.chunk.js",
+    "main.js.map": "/starbucks_app_react/static/js/main.c3979e86.chunk.js.map",
+    "runtime-main.js": "/starbucks_app_react/static/js/runtime-main.f444cb0e.js",
+    "runtime-main.js.map": "/starbucks_app_react/static/js/runtime-main.f444cb0e.js.map",
+    "static/js/2.51ec5dcf.chunk.js": "/starbucks_app_react/static/js/2.51ec5dcf.chunk.js",
+    "static/js/2.51ec5dcf.chunk.js.map": "/starbucks_app_react/static/js/2.51ec5dcf.chunk.js.map",
+    "index.html": "/starbucks_app_react/index.html",
+    "static/css/main.a8dd23d5.chunk.css.map": "/starbucks_app_react/static/css/main.a8dd23d5.chunk.css.map",
+    "static/js/2.51ec5dcf.chunk.js.LICENSE.txt": "/starbucks_app_react/static/js/2.51ec5dcf.chunk.js.LICENSE.txt",
+    "static/media/img1.8fc07f15.png": "/starbucks_app_react/static/media/img1.8fc07f15.png",
+    "static/media/img2.a33944e3.png": "/starbucks_app_react/static/media/img2.a33944e3.png",
+    "static/media/img3.61b22f49.png": "/starbucks_app_react/static/media/img3.61b22f49.png",
+    "static/media/logo.766153cb.png": "/starbucks_app_react/static/media/logo.766153cb.png",
+    "static/media/thumb1.1e6ce44a.png": "/starbucks_app_react/static/media/thumb1.1e6ce44a.png",
+    "static/media/thumb2.4436a39b.png": "/starbucks_app_react/static/media/thumb2.4436a39b.png",
+    "static/media/thumb3.00b72d1c.png": "/starbucks_app_react/static/media/thumb3.00b72d1c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f444cb0e.js",
+    "static/js/2.51ec5dcf.chunk.js",
+    "static/css/main.a8dd23d5.chunk.css",
+    "static/js/main.c3979e86.chunk.js"
+  ]
+}
